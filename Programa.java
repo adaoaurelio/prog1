@@ -15,8 +15,7 @@ public class Programa{
 
         System.out.println("inteiro: " + inteiro); //print
 
-        /* If, Else, While e Do While é igual C (A maioria das operações são assim só muda a sintaxe)
-        *\
-
+        /**  If, Else, While, Switch e Do While é igual C (A maioria das operações são assim só muda a sintaxe)
+        **/
     }
 }
