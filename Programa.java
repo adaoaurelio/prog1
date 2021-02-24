@@ -1,5 +1,5 @@
 public class Programa{
-    public static void maio(String args[]){
+    public static void main(String args[]){
         int inteiro;
         String nome = "Adão";
         //nome = "Adão"
