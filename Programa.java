@@ -1,3 +1,5 @@
+import java.util.Scanner; //Bibliotecas, se * pega todos (Lembrar C / Shell)
+
 public class Programa{
     public static void main(String args[]){
         int inteiro;
