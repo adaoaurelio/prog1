@@ -8,6 +8,7 @@ public class Programa{
         float flutuante = 3.2f;
         float Flutuante2 = (float) 3.2;
         Float vetor[];
+        String nomeCompleto;
 
         vetor = new float[25];
 
@@ -23,10 +24,13 @@ public class Programa{
 
         inteiro = scanner.nextInt(); // Igual entrada de dados no C
                                      //scanf ("%d", &inteiro)
-
         
+
+        nomeCompleto = scanner.nextLine();
 
         /**  If, Else, While, Switch e Do While é igual C (A maioria das operações são assim só muda a sintaxe)
         **/
     }
 }
+
+scanner.useLocale(Locale.US); // Mudar local e tipo de representação alfabetica | Padrão de flutuante muda
