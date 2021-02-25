@@ -9,13 +9,22 @@ public class Programa{
         float Flutuante2 = (float) 3.2;
         Float vetor[];
 
-        vetor = new float[];
+        vetor = new float[25];
 
         nome = "Adão Aurélio";
 
         inteiro = 30;
 
         System.out.println("inteiro: " + inteiro); //print
+
+        Scanner scanner;
+
+        scanner = new Scanner(System.in); //Ler entrada
+
+        inteiro = scanner.nextInt(); // Igual entrada de dados no C
+                                     //scanf ("%d", &inteiro)
+
+        
 
         /**  If, Else, While, Switch e Do While é igual C (A maioria das operações são assim só muda a sintaxe)
         **/
