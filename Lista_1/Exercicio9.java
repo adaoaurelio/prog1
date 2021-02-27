@@ -4,10 +4,10 @@ public class Exercicio9 {
     public static void main(String[] args) {
         int  i, j, count=0;
 
-        for(i = 1; i <= 50; i++) {            
+        for(i = 0; i <= 50; i++) {            
 
             for (j = 1; j <= i; j++) {
-                if (j - i == 0){
+                if (i % j == 0){
                     count++;
                 }
             }
