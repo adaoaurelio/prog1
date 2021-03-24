@@ -1,0 +1,7 @@
+Dentro do método main são instanciadas as classes Quadrado e Forma
+A classe Quadrado recebe os lados do quadrado (c1, c2)
+Após isso é instanciada a classe Forma (f) que chamará os métodos imprimeQuadrado recebendo (c1 e c2)
+c3 recebe o resultado do cálculo do método multi da classe Forma com os valores de c1 e c2 como parâmetro
+O método multi da classe Forma recebe os lados do quadrado por parâmetro
+Feito isso é chamado o método imprimeQuadrado da classe Forma que passa o valor de c3 como parâmetro e dentro do método é feito o cálculo a partir do método calculaArea da classe Quadrado
+a saida é lado = 2 lado = 5 area = 25

@@ -10,8 +10,9 @@ public class Autor{
 
     public void carregaDoTeclado(){
         id = sc.nextInt();
-        nome = sc.nextLine();
-
-        System.out.println("Id: " + id + "Nome: " + nome);
+        System.out.println("Id: " + this.id);
+        
+        nome = sc.nextLine();        
+        System.out.println("Nome: " + this.nome);
     }
 }

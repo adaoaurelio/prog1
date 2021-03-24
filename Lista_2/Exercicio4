@@ -1,0 +1,5 @@
+O exercicio terá como saida
+x = 2 | -> Quadrado -> q2.x 
+y = 3 | -> Quadrado -> q2.y
+x = 2 | -> q2 = q1 (x,y) -> Quadrado -> x
+y = 3 | -> q2 = q1 (x,y) -> Quadrado -> y
