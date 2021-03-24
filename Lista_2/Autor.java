@@ -1,6 +1,8 @@
+package Lista_2;
+
 import java.util.Scanner;
 
-class Autor{
+public class Autor{
     int id;
     String nome;
 
@@ -8,7 +10,7 @@ class Autor{
 
     public void carregaDoTeclado(){
         id = sc.nextInt();
-        String nome = sc.nextLine();
+        nome = sc.nextLine();
 
         System.out.println("Id: " + id + "Nome: " + nome);
     }
