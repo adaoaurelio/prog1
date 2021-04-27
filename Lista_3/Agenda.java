@@ -6,6 +6,7 @@ public class Agenda {
    public int buscaPessoa(String nome); // informa em que posição da agenda está a pessoa
    public void imprimeAgenda(); // imprime os dados de todas as pessoas da agenda
    public void imprimePessoa(int index); // imprime os dados da pessoa que está na posição
-    “index” da agenda.
+   
+   //“index” da agenda.
 
 }
